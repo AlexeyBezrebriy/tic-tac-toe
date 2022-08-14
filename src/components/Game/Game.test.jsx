@@ -1,10 +1,10 @@
 import "@testing-library/jest-dom/extend-expect"
 import { render, screen } from "@testing-library/react"
-import App from "./App"
+import Game from "./Game"
 
-describe("App tests", () => {
-  test("should display Game", () => {
-    render(<App />)
+describe("Game test", () => {
+  test("should display Board", () => {
+    render(<Game />)
     const btn = screen.getAllByRole("button")
     expect(btn.length).toBe(9)
   })

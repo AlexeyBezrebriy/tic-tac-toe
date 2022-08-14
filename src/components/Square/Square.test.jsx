@@ -12,6 +12,6 @@ describe("Square Test", () => {
   test("should display square with className square", () => {
     render(<Square />)
 
-    expect(screen.getByRole("btn")).toHaveClass("square")
+    expect(screen.getByRole("button")).toHaveClass("square")
   })
 })
