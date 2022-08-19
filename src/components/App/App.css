@@ -1,0 +1,13 @@
+.App-wrapper {
+  width: 100%;
+  min-height: 100vh;
+}
+.App-container {
+  width: 200px;
+  margin: 0 auto;
+}
+.App-header {
+  max-width: 200px;
+  text-align: center;
+  margin: 20px 10px 50% 10px;
+}

@@ -1,8 +1,13 @@
 import React from "react"
 import Board from "../Board/Board"
+import "./Game.css"
 
 function Game(props) {
-  return <Board />
+  return (
+    <div className="Game-board">
+      <Board />
+    </div>
+  )
 }
 
 export default Game
