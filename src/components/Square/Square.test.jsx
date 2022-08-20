@@ -6,7 +6,7 @@ const x = "X"
 
 describe("Square Test", () => {
   test("should display square with X", () => {
-    render(<Square value={x} />)
+    render(<Square move={x} />)
     expect(screen.getByText(/X/)).toBeInTheDocument()
   })
   test("should display square with className square", () => {
