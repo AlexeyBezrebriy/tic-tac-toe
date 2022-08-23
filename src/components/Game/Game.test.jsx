@@ -3,9 +3,9 @@ import { render, screen } from "@testing-library/react"
 import Game from "./Game"
 
 describe("Game test", () => {
-  test("should display Board", () => {
+  test("should display Board with history", () => {
     render(<Game />)
     const btn = screen.getAllByRole("button")
-    expect(btn.length).toBe(9)
+    expect(btn.length).toBe(10)
   })
 })

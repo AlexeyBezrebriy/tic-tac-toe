@@ -6,6 +6,6 @@ describe("App tests", () => {
   test("should display Game", () => {
     render(<App />)
     const btn = screen.getAllByRole("button")
-    expect(btn.length).toBe(9)
+    expect(btn.length).toBe(10)
   })
 })
