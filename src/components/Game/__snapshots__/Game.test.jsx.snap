@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game test Game is render correctly 1`] = `
+<div
+  className="Game-board"
+>
+  <h2
+    className="Board-head"
+  >
+    Next player X
+  </h2>
+  <div
+    className="Board-grid"
+  >
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+    <button
+      className="square"
+      onClick={[Function]}
+    />
+  </div>
+  <ol>
+    <li>
+      <button
+        onClick={[Function]}
+      >
+        Go to start
+      </button>
+    </li>
+  </ol>
+</div>
+`;
